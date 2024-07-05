@@ -1,0 +1,260 @@
+{
+  "accountInformationPage.accountInformation": {
+    "defaultMessage": "Account Information"
+  },
+  "accountInformationPage.errorTryAgain": {
+    "defaultMessage": "Something went wrong. Please refresh and try again."
+  },
+  "accountMenu.signOutButtonText": {
+    "defaultMessage": "Sign Out"
+  },
+  "accountTrigger.ariaLabel": {
+    "defaultMessage": "Toggle My Account Menu"
+  },
+  "accountTrigger.buttonFallback": {
+    "defaultMessage": "Sign In"
+  },
+  "addressBookPage.addAddressText": {
+    "defaultMessage": "Add an Address"
+  },
+  "addressBookPage.addressBookText": {
+    "defaultMessage": "Address Book"
+  },
+  "cartPage.emptyCart": {
+    "defaultMessage": "There are no items in your cart."
+  },
+  "cartPage.heading": {
+    "defaultMessage": "Cart"
+  },
+  "cartTrigger.ariaLabel": {
+    "defaultMessage": "Toggle mini cart. You have {count} items in your cart."
+  },
+  "checkoutPage.additionalText": {
+    "defaultMessage": "You will also receive an email with the details and we will let you know when your order has shipped."
+  },
+  "checkoutPage.checkout": {
+    "defaultMessage": "Checkout"
+  },
+  "checkoutPage.editPaymentInformation": {
+    "defaultMessage": "Edit Payment Information"
+  },
+  "checkoutPage.emptyMessage": {
+    "defaultMessage": "There are no items in your cart."
+  },
+  "checkoutPage.errorSubmit": {
+    "defaultMessage": "Oops! An error occurred while submitting. Please try again."
+  },
+  "checkoutPage.greeting": {
+    "defaultMessage": "Welcome"
+  },
+  "checkoutPage.guestCheckout": {
+    "defaultMessage": "Guest Checkout"
+  },
+  "checkoutPage.loadingPaymentInformation": {
+    "defaultMessage": "Fetching Payment Information"
+  },
+  "checkoutPage.noPaymentAvailable": {
+    "defaultMessage": "Payment is currently unavailable."
+  },
+  "checkoutPage.orderNumber": {
+    "defaultMessage": "Order Number"
+  },
+  "checkoutPage.orderSummary": {
+    "defaultMessage": "Order Summary"
+  },
+  "checkoutPage.paymentInformation": {
+    "defaultMessage": "Payment Information"
+  },
+  "checkoutPage.paymentInformationStep": {
+    "defaultMessage": "3. Payment Information"
+  },
+  "checkoutPage.paymentLoadingError": {
+    "defaultMessage": "There was an error loading payments."
+  },
+  "checkoutPage.paymentMethodStatus": {
+    "defaultMessage": "The selected method is not supported for editing."
+  },
+  "checkoutPage.placeOrder": {
+    "defaultMessage": "Place Order"
+  },
+  "checkoutPage.refreshOrTryAgainLater": {
+    "defaultMessage": "Please refresh or try again later."
+  },
+  "checkoutPage.returnToCart": {
+    "defaultMessage": "Return to Cart"
+  },
+  "checkoutPage.reviewAndPlaceOrder": {
+    "defaultMessage": "Review and Place Order"
+  },
+  "checkoutPage.reviewOrder": {
+    "defaultMessage": "Review Order"
+  },
+  "checkoutPage.shippingMethodStep": {
+    "defaultMessage": "2. Shipping Method"
+  },
+  "checkoutPage.signInLabel": {
+    "defaultMessage": "Sign in for Express Checkout"
+  },
+  "checkoutPage.stockStatusMessage": {
+    "defaultMessage": "An item in your cart is currently out-of-stock and must be removed in order to Checkout. Please return to your cart to remove the item."
+  },
+  "checkoutPage.thankYou": {
+    "defaultMessage": "Thank you for your order!"
+  },
+  "global.editButton": {
+    "defaultMessage": "Edit"
+  },
+  "global.email": {
+    "defaultMessage": "Email"
+  },
+  "global.name": {
+    "defaultMessage": "Name"
+  },
+  "global.password": {
+    "defaultMessage": "Password"
+  },
+  "global.shippingInformation": {
+    "defaultMessage": "Shipping Information"
+  },
+  "global.shippingMethod": {
+    "defaultMessage": "Shipping Method"
+  },
+  "miniCart.checkout": {
+    "defaultMessage": "CHECKOUT"
+  },
+  "miniCart.editCartButton": {
+    "defaultMessage": "Edit Shopping Bag"
+  },
+  "miniCart.emptyMessage": {
+    "defaultMessage": "There are no items in your cart."
+  },
+  "miniCart.subtotal": {
+    "defaultMessage": "Subtotal:"
+  },
+  "miniCart.totalQuantity": {
+    "defaultMessage": "Items"
+  },
+  "orderDetails.buyAgain": {
+    "defaultMessage": "Buy Again"
+  },
+  "orderDetails.printLabel": {
+    "defaultMessage": "Print Receipt"
+  },
+  "orderDetails.quantity": {
+    "defaultMessage": "Qty"
+  },
+  "orderHistoryPage.emptyDataMessage": {
+    "defaultMessage": "You don't have any orders yet."
+  },
+  "orderHistoryPage.invalidOrderNumber": {
+    "defaultMessage": "Order \"{number}\" was not found."
+  },
+  "orderHistoryPage.loadMore": {
+    "defaultMessage": "Load More"
+  },
+  "orderHistoryPage.pageInfo": {
+    "defaultMessage": "Showing {current} of {total}"
+  },
+  "orderHistoryPage.pageTitleText": {
+    "defaultMessage": "Order History"
+  },
+  "orderHistoryPage.search": {
+    "defaultMessage": "Search by Order Number"
+  },
+  "orderItems.itemsHeading": {
+    "defaultMessage": "Items"
+  },
+  "orderRow.deliveredText": {
+    "defaultMessage": "Delivered"
+  },
+  "orderRow.orderDateText": {
+    "defaultMessage": "Order Date"
+  },
+  "orderRow.orderNumberText": {
+    "defaultMessage": "Order #"
+  },
+  "orderRow.orderTotalText": {
+    "defaultMessage": "Order Total"
+  },
+  "orderRow.processingText": {
+    "defaultMessage": "Processing"
+  },
+  "orderRow.readyToShipText": {
+    "defaultMessage": "Ready to ship"
+  },
+  "orderRow.shippedText": {
+    "defaultMessage": "Shipped"
+  },
+  "priceSummary.checkoutButton": {
+    "defaultMessage": "Proceed to Checkout"
+  },
+  "priceSummary.errorText": {
+    "defaultMessage": "Something went wrong. Please refresh and try again."
+  },
+  "priceSummary.estimatedTotal": {
+    "defaultMessage": "Estimated Total"
+  },
+  "priceSummary.lineItemLabel": {
+    "defaultMessage": "Subtotal"
+  },
+  "priceSummary.total": {
+    "defaultMessage": "Total"
+  },
+  "product.editItem": {
+    "defaultMessage": "Edit item"
+  },
+  "product.outOfStock": {
+    "defaultMessage": "Out-of-stock"
+  },
+  "product.price": {
+    "defaultMessage": "ea."
+  },
+  "product.removeFromCart": {
+    "defaultMessage": "Remove from cart"
+  },
+  "productList.each": {
+    "defaultMessage": "ea."
+  },
+  "productList.outOfStock": {
+    "defaultMessage": "Out-of-stock"
+  },
+  "productList.quantity": {
+    "defaultMessage": "Qty : {qty}"
+  },
+  "productListing.loading": {
+    "defaultMessage": "Fetching Cart..."
+  },
+  "toast.wishlist.error": {
+    "defaultMessage": "Product could not be added to wishlist."
+  },
+  "toast.wishlist.success": {
+    "defaultMessage": "Product was added to wishlist."
+  },
+  "wishlist.emptyListText": {
+    "defaultMessage": "There are currently no items in this list"
+  },
+  "wishlist.itemCountClosed": {
+    "defaultMessage": "You have {count} {count, plural, one {item} other {items} } in this list"
+  },
+  "wishlist.itemCountOpen": {
+    "defaultMessage": "Showing {currentCount} of {count} items in this list"
+  },
+  "wishlist.loadMore": {
+    "defaultMessage": "Load more"
+  },
+  "wishlist.name": {
+    "defaultMessage": "Wish List"
+  },
+  "wishlistPage.disabledMessage": {
+    "defaultMessage": "Sorry, this feature has been disabled."
+  },
+  "wishlistPage.fetchErrorMessage": {
+    "defaultMessage": "Something went wrong. Please refresh and try again."
+  },
+  "wishlistPage.headingText": {
+    "defaultMessage": "Favorites Lists"
+  },
+  "wishlistPage.wishlistDisabledMessage": {
+    "defaultMessage": "The wishlist is not currently available."
+  }
+}

@@ -1,0 +1,45 @@
+/*******************************************************************************
+ * ADOBE CONFIDENTIAL
+ * __________________
+ *
+ * Copyright 2019 Adobe Systems Incorporated
+ * All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ ******************************************************************************/
+
+.cmp-navigation__group {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.cmp-navigation__item {
+    list-style: none;
+    padding: 1.26em 1em;
+}
+
+.cmp-navigation__item--level-0 .cmp-navigation__group {
+    display: none;
+}
+
+.cmp-navigation__item--level-0:hover > .cmp-navigation__group {
+    display: flex;
+    background: $venia-grey;
+    box-shadow: 0 1px $venia-border;
+    margin-top: 1.3em;
+    margin-bottom: 1.5em;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: absolute;
+    left: 0;
+    right: 0;
+}

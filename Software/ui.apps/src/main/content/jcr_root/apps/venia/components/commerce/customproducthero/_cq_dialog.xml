@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+          xmlns:granite="http://www.adobe.com/jcr/granite/1.0"
+          jcr:primaryType="nt:unstructured"
+          sling:resourceType="cq/gui/components/authoring/dialog"
+          jcr:title="Custom product hero" >
+    <content
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+        <items jcr:primaryType="nt:unstructured">
+            <column
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/container">
+                <items jcr:primaryType="nt:unstructured"
+                       sling:hideChildren="[id]">
+                    <product
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="commerce/gui/components/common/cifproductfield"
+                            fieldDescription="The product or product variant displayed by the hero component"
+                            fieldLabel="Select Product"
+                            name="./selection"
+                            showLink="{Boolean}true"
+                            selectionId="sku"/>
+                    <featuredText
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Featured text"
+                            name="./featuredText">
+                    </featuredText>
+                    <media-option
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                            granite:class="cq-dialog-dropdown-showhide media-type-select"
+                            fieldLabel="Image options"
+                            name="./imageOption">
+                        <granite:data
+                                jcr:primaryType="nt:unstructured"
+                                cq-dialog-dropdown-showhide-target=".image-showhide-target"/>
+                        <items jcr:primaryType="nt:unstructured">
+                            <internal-image
+                                    jcr:primaryType="nt:unstructured"
+                                    selected="{Boolean}true"
+                                    text="Internal Image"
+                                    value="internalImage"/>
+                            <generated-image
+                                    jcr:primaryType="nt:unstructured"
+                                    text="Generated image"
+                                    value="generatedImage"/>
+                        </items>
+                    </media-option>
+                    <internal-image-container
+                            granite:class="image-showhide-target"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/container">
+                        <granite:data
+                                jcr:primaryType="nt:unstructured"
+                                showhidetargetvalue="internalImage"/>
+                        <items jcr:primaryType="nt:unstructured">
+                            <file
+                                    granite:class="cmp-image__editor-file-upload"
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="cq/gui/components/authoring/dialog/fileupload"
+                                    class="cq-droptarget"
+                                    allowUpload="{Boolean}false"
+                                    enableNextGenDynamicMedia="{Boolean}true"
+                                    fileNameParameter="./fileName"
+                                    fileReferenceParameter="./fileReference"
+                                    mimeTypes="[image/gif,image/jpeg,image/png,image/tiff,image/svg+xml]"
+                                    name="./file"
+                                    fieldLabel="Internal image" />
+                        </items>
+                    </internal-image-container>
+                    <generated-image-container
+                            granite:class="image-showhide-target"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/container">
+                        <granite:data
+                                jcr:primaryType="nt:unstructured"
+                                showhidetargetvalue="generatedImage"/>
+                        <items jcr:primaryType="nt:unstructured">
+                            <text
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                    fieldLabel="AI prompt text"
+                                    name="./promptText"/>
+                        </items>
+                    </generated-image-container>
+                </items>
+            </column>
+        </items>
+    </content>
+</jcr:root>

@@ -1,0 +1,8 @@
+
+=
+java:S54116"(Use a primitive boolean expression here.(Ö•ÀF
+z
+java:S1450!"_Remove the "productRetriever" field and declare it as a local variable in the relevant methods.(¡–¾±ùÿÿÿÿ
+E	java:S108&")Either remove or fill this block of code.(ˆÎå—8 ŒäÑ†2
+S
+java:S1874;"=Remove this use of "getProductIdentifiers"; it is deprecated.(º²°þ

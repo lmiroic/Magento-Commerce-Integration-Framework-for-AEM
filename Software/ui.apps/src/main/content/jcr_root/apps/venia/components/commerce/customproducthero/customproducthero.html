@@ -1,0 +1,31 @@
+<sly data-sly-use.model="${'com.venia.core.models.commerce.CustomProductHero' @product=properties.selection}"
+     data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+     data-sly-use.templates="core/wcm/components/commons/v1/templates.html"></sly>
+
+<sly data-sly-call="${clientlib.css @ categories='venia.customproducthero'}"></sly>
+
+<div data-sly-test="${!model.empty}"
+     class="custom-product-hero">
+    <div class="image-container">
+        <div class="image-wrapper">
+            <img data-sly-test="${model.aIGeneratedImage && model.unsplashImage.urls.regular}"
+                 src="${model.unsplashImage.urls.regular}" alt="${model.unsplashImage.alt_description}">
+            <img data-sly-test="${!model.aIGeneratedImage && model.imageUrl}" src="${model.imageUrl}"
+                 alt="${model.imageAlt}">
+            <div class="feature-text">${model.featuredText}</div>
+        </div>
+        <div class="product-details">
+            <div data-sly-list.asset="${model.assets}">
+                <div data-sly-test="${assetList.index == 0}">
+                    <img class="product-image" src="${asset.path}" alt="${asset.label}">
+                </div>
+            </div>
+            <h2>${model.name}</h2>
+            <div>${model.description @ context='html'}</div>
+            <div class="price">${model.priceRange.formattedRegularPrice}</div>
+            <a href="${model.canonicalUrl}" class="button">${'com.venia.custom.product.hero.view.product' @ i18n}</a>
+        </div>
+    </div>
+</div>
+<sly data-sly-call="${templates.placeholder @ isEmpty = model.empty}"></sly>
+
