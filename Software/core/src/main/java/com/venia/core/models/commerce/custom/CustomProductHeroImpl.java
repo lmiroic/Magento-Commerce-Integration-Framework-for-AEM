@@ -1,4 +1,4 @@
-package com.venia.core.models.commerce;
+package com.venia.core.models.commerce.custom;
 
 import com.adobe.cq.commerce.core.components.models.common.Price;
 import com.adobe.cq.commerce.core.components.models.product.*;
